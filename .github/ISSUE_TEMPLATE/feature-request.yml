@@ -1,0 +1,47 @@
+name: 'Missing Documentation Request'
+labels: ["idea"]
+description: Suggest missing documentation
+
+body:
+  - type: dropdown
+    id: missing-docs
+    attributes:
+      label: Which part of the docs are relevant/related to the request?
+      options:
+        - Docker
+        - Docker Swarm
+        - Kubernetes
+        - Middleware
+        - Tracing
+        - Logs
+        - Installation
+        - Routers
+        - ACME
+        - Providers
+        - Plugins
+        - TCP
+        - UDP
+        - TLS
+        - WebUI
+      multiple: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives-considered
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: true

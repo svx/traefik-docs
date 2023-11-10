@@ -1,0 +1,56 @@
+name: 'Bug Report'
+labels: ["bug"]
+description: Report a bug in the current Traefik Documentation
+
+body:
+  - type: dropdown
+    id: missing-docs
+    attributes:
+      label: Which part of the docs are relevant/related to the request?
+      options:
+        - Docker
+        - Docker Swarm
+        - Kubernetes
+        - Middleware
+        - Tracing
+        - Logs
+        - Installation
+        - Routers
+        - ACME
+        - Providers
+        - Plugins
+        - TCP
+        - UDP
+        - TLS
+        - WebUI
+      multiple: true
+  - type: dropdown
+
+    id: version
+    attributes:
+      label: Which version of the docs is affected?
+      multiple: true
+      options:
+        - 3.0 (RC)
+        - 2.10
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives-considered
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: true
