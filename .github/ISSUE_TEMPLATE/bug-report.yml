@@ -31,8 +31,8 @@ body:
       label: Which version of the docs is affected?
       multiple: true
       options:
-        - 3.0 (RC)
-        - 2.10
+        - "3.0 (RC)"
+        - "2.10"
 
   - type: textarea
     id: description
