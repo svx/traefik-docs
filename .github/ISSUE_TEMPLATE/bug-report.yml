@@ -1,4 +1,4 @@
-name: 'Bug Report'
+name: 'Traefik Documentation Bug Report'
 labels: ["bug"]
 description: Report a bug in the current Traefik Documentation
 
