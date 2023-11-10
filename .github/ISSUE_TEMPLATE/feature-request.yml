@@ -1,6 +1,6 @@
 name: 'Missing Documentation Request'
 labels: ["idea"]
-description: Suggest missing documentation
+description: Suggest missing documentation for Traefik Proxy
 
 body:
   - type: dropdown
