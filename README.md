@@ -20,7 +20,6 @@
 
 <div align="center">Create beautiful, modern and effortless to use documentation for Traefik Proxy.
 
-
 <br />
 <br />
 </div>
