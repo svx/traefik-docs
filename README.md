@@ -36,9 +36,7 @@ It's not only about creating manuals and guides but fostering an inclusive envir
 
 The aim is to build a documentation ecosystem that not only serves as a reference but as a shared space for learning, troubleshooting, and innovation.
 
-Our focus is on community-driven improvements, emphasizing the diverse perspectives and experiences that make up the Traefik user base. By coming together to enhance documentation, we embark on a journey to:
-
-Empower Newcomers: Create clear, concise, and beginner-friendly guides that serve as stepping stones for those starting their Traefik journey. Let's make the onboarding process a delightful experience, eliminating barriers for those eager to explore the possibilities.
+Our focus is on community-driven improvements, emphasizing the diverse perspectives and experiences that make up the Traefik user base.
 
 ## Key Objectives
 
@@ -52,7 +50,7 @@ Empower Newcomers: Create clear, concise, and beginner-friendly guides that serv
 
 ## Contributing
 
-This is an invitation to every Traefik enthusiast to join hands in shaping the future of our favorite tool.
+This is an invitation to every Traefik enthusiast to join hands in shaping the future of our favorite tool.  
 Let's turn documentation into a communal project, where our combined efforts propel Traefik to new heights of usability, understanding, and community engagement.
 
 Together, we're not only enhancing documentation; we're building a knowledge hub that reflects the strength and unity of the Traefik community.
@@ -60,7 +58,7 @@ Together, we're not only enhancing documentation; we're building a knowledge hub
 Feel free to contribute, your help is very welcome:
 
 - Give a GitHub ⭐ if you like it.
-- Create an [Issue](https://github.com/dotdc/grafana-dashboards-kubernetes/issues) to make a feature request, report a bug or share an idea.
+- Create an [Issue](https://github.com/svx/traefik-docs/issues) to make a feature request, report a bug or share an idea.
 
 ## License
 
